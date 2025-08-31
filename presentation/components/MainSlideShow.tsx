@@ -18,7 +18,7 @@ const MainSlideShow = ({ movies }: Props) => {
         data={movies}
         renderItem={({ item }) => <MoviesPoster id={item.id} poster={item.poster} />}
         width={200}
-        height={350}
+        height={250}
         defaultIndex={0}
         style={{
           width: width,
